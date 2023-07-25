@@ -77,7 +77,7 @@ try:
 except subprocess.CalledProcessError as e:
     print(f"Failed to convert svg to png: {e}")
 
-# use a generator statement to convert calendar.png to all the sizes from file_names
+# convert calendar.png to all the sizes from file_names
 try:
     for size in convert_to_file_sizes:
         subprocess.run(["convert", png_file_path, "-resize", size, f"{base_path}calendar-{size}x{size}.png"], check=True)
