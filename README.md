@@ -6,6 +6,7 @@ Dependencies are:
 - os
 - subprocess
   - used to run imagemagick installed in the local environment to convert the pngs
+- uses helvetica font for the day name, fira sans condensed for the number
  
 So far, this has only been tested and confirmed to work on Linux (debian). 
 
