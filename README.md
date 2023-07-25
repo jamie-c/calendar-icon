@@ -9,8 +9,11 @@ Dependencies are:
  
 So far, this has only been tested and confirmed to work on Linux (debian). 
 
-TODO
+TODO  
 [ ] Test on macOS
+[ ] Add directions for setting the image file as the calendar app icon
+[ ] Create shell script to install the file, and ensure the file is store in $PATH
+[ ] Add instructions or shell script for adding script to cron to run at set interval of choice
 
 Running the file creates an svg file with the current day name at the top of the image and the current date number on the bottome.
 The app then converts the svg to a png in several different sizes.
